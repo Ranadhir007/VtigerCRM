@@ -12,7 +12,8 @@ public class Baseclass1 {
 	@BeforeTest
 	public void Setup() {
 		 driver=new ChromeDriver();
-		driver.get("https://www.instagram.com/");
+		driver.get("https://www.oursuswamy.com/");
+		system.out.println("swamy project");
 		driver.manage().window().maximize();
 	}
 @Test
